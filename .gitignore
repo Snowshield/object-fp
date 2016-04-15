@@ -1,0 +1,7 @@
+# /*.coffee
+
+# NPM debug info
+npm-debug.log
+
+# DOWNLOADABLE via npm
+/node_modules/
