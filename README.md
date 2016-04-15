@@ -53,9 +53,6 @@ And translate back Array into Object.
 - **Object.prototype.forEach()**
   > Calls a function for each element in the array.
 
-- **Object.prototype.entries()**
-  > Returns a new Array Iterator object that contains the key/value pairs for each index in the array.
-
 - **Object.prototype.every()**
   > Returns true if every element in this array satisfies the provided testing function.
 
@@ -65,15 +62,6 @@ function.
 
 - **Object.prototype.filter()**
   > Creates a new array with all of the elements of this array for which the provided filtering function returns true.
-
-- **Object.prototype.find()**
-  > Returns the found value in the array, if an element in the array satisfies the provided testing function or undefined if not found.
-
-- **Object.prototype.findIndex()**
-  > Returns the found index in the array, if an element in the array satisfies the provided testing function or -1 if not found.
-
-- **Object.prototype.keys()**
-  > Returns a new Array Iterator that contains the keys for each index in the array.
 
 - **Object.prototype.map()**
   > Creates a new array with the results of calling a provided function on every element in this array.
