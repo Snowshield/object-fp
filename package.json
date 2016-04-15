@@ -1,6 +1,6 @@
 {
   "name": "object-fp",
-  "version": "0.4.1-0",
+  "version": "0.4.1-1",
   "description": "Library for using funtional programming methods on js objects without mixins",
   "main": "index.js",
   "scripts": {
