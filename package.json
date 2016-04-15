@@ -1,13 +1,13 @@
 {
   "name": "object-fp",
-  "version": "0.4.0",
+  "version": "0.4.1-0",
   "description": "Library for using funtional programming methods on js objects without mixins",
   "main": "index.js",
   "scripts": {
     "test": "webpack & mocha ./test.coffee --require coffee-script/register",
     "preversion": "npm test",
     "version": "git add .",
-    "push": "git push -u origin master"
+    "push": "git push -u origin master & npm publish ./"
   },
   "keywords": [
     "objects",

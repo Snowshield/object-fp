@@ -1,7 +1,15 @@
-## Discription
+object-fp
+======
+
 Library for using funtional programming methods on js objects without mixins
 
-## Examples
+### Installation
+Install this module through `npm`.
+```
+npm install object-fp
+```
+
+### Examples
 Methods are not mixed.
 ```javascript
   withFP ->
@@ -31,7 +39,7 @@ And translate back Array into Object.
 
 ### Main function
 **withFP( function() )**
-> Mixin methods to Object and Array prototypes, perform function and unmix methods after.
+  > Mixin methods to Object and Array prototypes, perform function and unmix methods after.
 
 #### Methods work only within withFP
 
@@ -75,3 +83,7 @@ function.
 
 - **Object.prototype.reduceRight()**
   > Apply a function against an accumulator and each value of the array (from right-to-left) as to reduce it to a single value.
+
+### License
+
+This module is licensed under the MIT license that can be found in the LICENSE file.
